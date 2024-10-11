@@ -1,6 +1,8 @@
 # A Mininet & IPerf3 Networking Performance Testing Project
 
-## Testing the impact of bottlenecks on networking performance.
+## Testing the impact of bottlenecks on networking performance.<br>
+This project utilizes IPerf3 and Mininet to explore the impacts of a potential bottleneck link in a network. The network testing comprises of a four host two switch topology. Via the command line, or module access, an individual may maniplulate the configured bandwidth between two switches on the network, in order to observe the impact of throughput with respect to tcp and udp communications. For the sake of fulfilling requirements of the university assignment associated with this project, accessory ping and ifconfig information is also retrieved in an effort to confirm connectivity. These files may be stored in locations as specified in the files.<br><br>
+### The current instance implements a system of directory naming which causes tedious tasks in modification. The project will soon be updated so as to centralize specification of desired directories to a particular configuration file.
 
 ### Credits<br>
 Thanks extended to the providers of documentation for mininet and iperf3, the authors of the mainstream mininet and openflow walkthrough, and the authors of documentation for iperf python bindings.<br>
