@@ -1,0 +1,15 @@
+[ LOG ] >>  0 >>  Preparing run_perf_tests...-8-100
+[ LOG ] >>  1 >>  Preparing run_topology_tests...-8-100
+[ LOG ] >>  2 >>  Simulation (s) run duration is : 5.
+[ LOG ] >>  3 >>  Bandwidth for bottleneck link is : 8.
+[ LOG ] >>  4 >>  Bandwidth for standard links is : 100.
+[ LOG ] >>  0 >>  Preparing run_perf_tests...-32-100
+[ LOG ] >>  1 >>  Preparing run_topology_tests...-32-100
+[ LOG ] >>  2 >>  Simulation (s) run duration is : 5.
+[ LOG ] >>  3 >>  Bandwidth for bottleneck link is : 32.
+[ LOG ] >>  4 >>  Bandwidth for standard links is : 100.
+[ LOG ] >>  0 >>  Preparing run_perf_tests...-64-100
+[ LOG ] >>  1 >>  Preparing run_topology_tests...-64-100
+[ LOG ] >>  2 >>  Simulation (s) run duration is : 5.
+[ LOG ] >>  3 >>  Bandwidth for bottleneck link is : 64.
+[ LOG ] >>  4 >>  Bandwidth for standard links is : 100.
