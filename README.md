@@ -1,15 +1,10 @@
-# Our Assignment 3 Implementation
+# A Mininet & IPerf3 Networking Performance Testing Project
 
-## Below is a description of who helped make our Assignment 3 implementation for Networking Class, as well as a guide on how to run it and some of the most common bugs. Feel free to explore our project!
+## Testing the impact of bottlenecks on networking performance.
 
-### CONTRIBUTORS:
--- Brian Morrisv(bsmorris): Handled most documenation, assisted with development on client side, and server side code. Helped with testing of various components. Helped with project organization. Designed ReadME.
-
--- Jonathan Boyd(jonboyd): Led development on server and client side code, assisted in testing of various components. Helped with project organization. Helped Design ReadME.
-
--- Preston Van Blair(pvanblair): Developed the majority of the graphing code. Helped with project organization. Assisted in other areas.
+### Credits -
+<p><em>Thanks extended to the providers of documentation for mininet and iperf3, the authors of the mainstream mininet and openflow walkthrough, and the authors of documentation for iperf python bindings.</em></p>
 ### Run guide
-
 <p>
 To run the main testing module (<code>analyze-perf.py</code>) there are two options...
 <ol>
