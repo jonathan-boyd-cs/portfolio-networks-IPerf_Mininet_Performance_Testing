@@ -29,4 +29,3 @@ The modules <code>server.py</code> and <code>client.py</code> may be utilized in
 ##### notes (@jonboyd)
 ###### BUG REPORT
 <p>There are known bugs within the try..except blocks that arise in the midst of unsuspected termination (i.e., KeyboardInterrupt). This can be observed in the log files, as the remaining chain of attempts run regardless of the interruption, producing a sequence of logged failed attempts. There are potentially more try..except blocks than necessary... for this, apologies are extended.</p><br>
-<p>Confirmation was received from the professor that the timing on iperf could ideally be lowered from 60 seconds and recommendations were followed to integrate the <code>-time</code> argument into the <code>client.py</code> module. The implementation delivers various files to accessory folders, with assignment files being left in A3 for assuredness of grading.</p><br>
