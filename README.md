@@ -2,8 +2,8 @@
 
 ## Testing the impact of bottlenecks on networking performance.
 
-### Credits -
-<p><em>Thanks extended to the providers of documentation for mininet and iperf3, the authors of the mainstream mininet and openflow walkthrough, and the authors of documentation for iperf python bindings.</em></p>
+### Credits<br>
+Thanks extended to the providers of documentation for mininet and iperf3, the authors of the mainstream mininet and openflow walkthrough, and the authors of documentation for iperf python bindings.<br>
 ### Run guide
 <p>
 To run the main testing module (<code>analyze-perf.py</code>) there are two options...
