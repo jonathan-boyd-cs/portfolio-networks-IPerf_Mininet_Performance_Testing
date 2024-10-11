@@ -21,7 +21,7 @@ The modules <code>server.py</code> and <code>client.py</code> may be utilized in
 </p><br>
 
 ### constraints argument format : <code>string</code> "%d %d %d %d" <- values (bottleneck bandwidths (Mbps)) separated by spaces.
-<p><em>constraints are measured in reference to a static 100 Mbps natural link bandwidth for non-bottlenecked ports.</em></p><br>
+<p><em>constraints are measured in reference to a static 100 Mbps natural link bandwidth for non-bottlenecked ports. Because of the static natural link bandwidth of 100 Mbps, the constraints should remain below 100 Mbps. Anything equal to, or above, 100 Mbps will result in an assertion failure.</em></p><br>
 
 ## See below for instructions on running the <code>server.py</code> and the <code>client.py</code> modules.
 <p><em>The <code>client.py</code> and the <code>server.py</code> module can be utilized independently to confirm connection in an environment isolated from mininet. To run these modules...
