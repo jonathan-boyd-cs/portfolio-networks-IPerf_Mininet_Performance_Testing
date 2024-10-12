@@ -1,8 +1,8 @@
 h4-eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 10.0.0.4  netmask 255.0.0.0  broadcast 10.255.255.255
-        inet6 fe80::8c4:ceff:fee3:131f  prefixlen 64  scopeid 0x20<link>
-        ether 0a:c4:ce:e3:13:1f  txqueuelen 1000  (Ethernet)
-        RX packets 60  bytes 6726 (6.7 KB)
+        inet6 fe80::d484:95ff:fe0d:dc9f  prefixlen 64  scopeid 0x20<link>
+        ether d6:84:95:0d:dc:9f  txqueuelen 1000  (Ethernet)
+        RX packets 34  bytes 2744 (2.7 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
         TX packets 8  bytes 656 (656.0 B)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0

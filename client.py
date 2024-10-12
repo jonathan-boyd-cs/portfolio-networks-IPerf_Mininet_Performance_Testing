@@ -4,9 +4,10 @@ import iperf3
 import json
 import subprocess
 import os
+from configure import  IPERF_DIRECTORY
 #Handles the client code for the Networking Homework 3 Assignment.
 if __name__ == "__main__" :
-    
+
     #Declare the parser and set arguments for the Client IP, Port, Server IP and what type of connection it is. 
     parser = argparse.ArgumentParser()
     parser.add_argument("-ip", help="Client IP address", type=str, default="127.0.0.2")
@@ -36,7 +37,8 @@ if __name__ == "__main__" :
     data = (result.json)
     
     
-    file_name = "./test-results/iperf/c-iperf-client-{}-to-server-{}-test-{}.json".format(
+    file_name = "{}c-iperf-client-{}-to-server-{}-test-{}.json".format(
+        IPERF_DIRECTORY,
         result.local_host,
         result.remote_host,
         result.protocol

@@ -5,16 +5,11 @@ from typing import List
 import matplotlib.pyplot as plt
 import os
 import argparse
-
+from configure import init_file_system
+from configure import PLOT_DIRECTORY , FINAL_RESULT_DIRECTORY
 # specify iperf3 testing duration
 TIME        : int
 CONSTRAINTS : List[int]
-
-# CREATE OUTPUT DIRECTORIES
-RESULT_DIRECTORY    : str = "./test-results/"
-FINAL_RESULT_DIRECTORY  : str = "./"
-PLOT_DIRECTORY   : str    = "./"
-
 
 
 def run_bottleneck_test(bw_bottleneck : int , bw_other : int =100, time_seconds : int = 1) -> dict:
@@ -25,7 +20,7 @@ def run_bottleneck_test(bw_bottleneck : int , bw_other : int =100, time_seconds 
     - <strong>bw_bottleneck</strong>    : <code>int</code>  bottleneck bandwidth in Mbps<br>
     - <strong>bw_other</strong>         : <code>int</code>  bandwidth of other (normal) links, (default 100 Mbps)<br>
     - <strong>time_seconds</strong>             : <code>int</code>  TO BE IMPLEMENTED... modulate the duration of iperf testig (default 1 second)<br>
-    <emphasis>The time parameter currently modulates the duration of iperf testing</emphasis><br>
+    <emphasis>The time parameter currently modulates the duration of ping testing</emphasis><br>
     
     Returns:<br>
     - <code>dict</code> TCP and UDP iperf3 test results from the generated JSON file<br>
@@ -108,7 +103,8 @@ def plot_test_results( *, data_sets : List[dict] , title : str , xlabel: str , y
     """
     if not os.path.exists(PLOT_DIRECTORY):
         subprocess.run([ "mkdir", PLOT_DIRECTORY ] )
-    
+   
+    plot_file_name = "{}{}".format(PLOT_DIRECTORY, plot_file_name)
     plt.figure(figsize=(9, 6))
 
     label_index = 0
@@ -169,7 +165,8 @@ def main():
 
         # throughput calculation
         tcp_throughput : float = calculate_throughput( 
-                                                      total_bytes_transmitted= (test_results['TCP']['total_bytes_sent'] + test_results['TCP']['total_bytes_received']),
+                                                      total_bytes_transmitted= (test_results['TCP']['total_bytes_sent'] + 
+                                                                                test_results['TCP']['total_bytes_received']),
                                                       time_seconds=TIME
                                                       )
         udp_throughput : float = calculate_throughput( total_bytes_transmitted=test_results['UDP']['total_bytes_sent'],
@@ -220,4 +217,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
     TIME = args.time
     CONSTRAINTS = [ int(x) for x in args.constraints.split()]
+    init_file_system()
     main()

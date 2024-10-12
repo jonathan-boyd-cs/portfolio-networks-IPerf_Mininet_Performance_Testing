@@ -1,24 +1,24 @@
 PING 10.0.0.1 (10.0.0.1) 56(84) bytes of data.
-64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=0.226 ms
-64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=0.067 ms
-64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=0.043 ms
+64 bytes from 10.0.0.1: icmp_seq=1 ttl=64 time=0.025 ms
+64 bytes from 10.0.0.1: icmp_seq=2 ttl=64 time=0.057 ms
+64 bytes from 10.0.0.1: icmp_seq=3 ttl=64 time=0.050 ms
 
 --- 10.0.0.1 ping statistics ---
-3 packets transmitted, 3 received, 0% packet loss, time 2040ms
-rtt min/avg/max/mdev = 0.043/0.112/0.226/0.081 ms
+3 packets transmitted, 3 received, 0% packet loss, time 2969ms
+rtt min/avg/max/mdev = 0.025/0.044/0.057/0.013 ms
 PING 10.0.0.2 (10.0.0.2) 56(84) bytes of data.
-64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=0.038 ms
-64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.072 ms
-64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.089 ms
+64 bytes from 10.0.0.2: icmp_seq=1 ttl=64 time=0.025 ms
+64 bytes from 10.0.0.2: icmp_seq=2 ttl=64 time=0.057 ms
+64 bytes from 10.0.0.2: icmp_seq=3 ttl=64 time=0.071 ms
 
 --- 10.0.0.2 ping statistics ---
-3 packets transmitted, 3 received, 0% packet loss, time 2043ms
-rtt min/avg/max/mdev = 0.038/0.066/0.089/0.021 ms
+3 packets transmitted, 3 received, 0% packet loss, time 2154ms
+rtt min/avg/max/mdev = 0.025/0.051/0.071/0.019 ms
 PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.
-64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=0.032 ms
-64 bytes from 10.0.0.4: icmp_seq=2 ttl=64 time=0.056 ms
-64 bytes from 10.0.0.4: icmp_seq=3 ttl=64 time=0.088 ms
+64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=0.030 ms
+64 bytes from 10.0.0.4: icmp_seq=2 ttl=64 time=0.066 ms
+64 bytes from 10.0.0.4: icmp_seq=3 ttl=64 time=0.099 ms
 
 --- 10.0.0.4 ping statistics ---
-3 packets transmitted, 3 received, 0% packet loss, time 2041ms
-rtt min/avg/max/mdev = 0.032/0.058/0.088/0.022 ms
+3 packets transmitted, 3 received, 0% packet loss, time 2862ms
+rtt min/avg/max/mdev = 0.030/0.065/0.099/0.028 ms

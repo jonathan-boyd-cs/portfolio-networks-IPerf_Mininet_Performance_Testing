@@ -1,146 +1,146 @@
-[ LOG ] >>  0 >>  successfully initiated server [@h3] in run_iperf_client_server_test...-8-100
-[ LOG ] >>  1 >>  successfully initiated client in iperf test [@server h3 : @client h1] in run_iperf_client_server_test...-8-100
-[ LOG ] >>  2 >>  successfully initiated server [@h3] in run_iperf_client_server_test...-8-100
-[ LOG ] >>  3 >>  successfully initiated client in iperf test [@server h3 : @client h1] in run_iperf_client_server_test...-8-100
-[ LOG ] >>  4 >>  successfully performed server client test & exited iperf test [@server h3 : @client h1] in run_iperf_client_server_test...-8-100
-[ LOG ] >>  5 >>  successfully initiated server [@h1] in run_iperf_client_server_test...-8-100
-[ LOG ] >>  6 >>  successfully initiated client in iperf test [@server h1 : @client h3] in run_iperf_client_server_test...-8-100
-[ LOG ] >>  7 >>  successfully performed server client test & exited iperf test [@server h1 : @client h3] in run_iperf_client_server_test...-8-100
-[ LOG ] >>  8 >>  successfully initiated server [@h4] in run_iperf_client_server_test...-8-100
-[ LOG ] >>  9 >>  successfully initiated client in iperf test [@server h4 : @client h2] in run_iperf_client_server_test...-8-100
-[ LOG ] >>  10 >>  successfully performed server client test & exited iperf test [@server h4 : @client h2] in run_iperf_client_server_test...-8-100
-[ LOG ] >>  11 >>  successfully initiated server [@h2] in run_iperf_client_server_test...-8-100
-[ LOG ] >>  12 >>  successfully initiated client in iperf test [@server h2 : @client h4] in run_iperf_client_server_test...-8-100
-[ LOG ] >>  13 >>  successfully performed server client test & exited iperf test [@server h2 : @client h4] in run_iperf_client_server_test...-8-100
-[ LOG ] >>  14 >>  successfully instantiated BottleneckTopo object in run_topology_tests...
-[ LOG ] >>  15 >>  successfully instantiated Mininet() object in run_topology_tests...
-[ LOG ] >>  16 >>  successfully started a mininet network in run_topology_tests...
-[ LOG ] >>  17 >>  successfully sent command to node : [h1 : ifconfig]-8-100
-[ LOG ] >>  18 >>  successfully logged command [h1 : ifconfig] in run_topology_tests...-8-100
-[ LOG ] >>  19 >>  successfully sent command to node : [h1 : ping to h2]-8-100
-[ LOG ] >>  20 >>  successfully logged command [h1 : ping to h2] in run_topology_tests...-8-100
-[ LOG ] >>  21 >>  successfully sent command to node : [h1 : ping to h3]-8-100
-[ LOG ] >>  22 >>  successfully logged command [h1 : ping to h3] in run_topology_tests...-8-100
-[ LOG ] >>  23 >>  successfully sent command to node : [h1 : ping to h4]-8-100
-[ LOG ] >>  24 >>  successfully logged command [h1 : ping to h4] in run_topology_tests...-8-100
-[ LOG ] >>  25 >>  successfully sent command to node : [h2 : ifconfig]-8-100
-[ LOG ] >>  26 >>  successfully logged command [h2 : ifconfig] in run_topology_tests...-8-100
-[ LOG ] >>  27 >>  successfully sent command to node : [h2 : ping to h1]-8-100
-[ LOG ] >>  28 >>  successfully logged command [h2 : ping to h1] in run_topology_tests...-8-100
-[ LOG ] >>  29 >>  successfully sent command to node : [h2 : ping to h3]-8-100
-[ LOG ] >>  30 >>  successfully logged command [h2 : ping to h3] in run_topology_tests...-8-100
-[ LOG ] >>  31 >>  successfully sent command to node : [h2 : ping to h4]-8-100
-[ LOG ] >>  32 >>  successfully logged command [h2 : ping to h4] in run_topology_tests...-8-100
-[ LOG ] >>  33 >>  successfully sent command to node : [h3 : ifconfig]-8-100
-[ LOG ] >>  34 >>  successfully logged command [h3 : ifconfig] in run_topology_tests...-8-100
-[ LOG ] >>  35 >>  successfully sent command to node : [h3 : ping to h1]-8-100
-[ LOG ] >>  36 >>  successfully logged command [h3 : ping to h1] in run_topology_tests...-8-100
-[ LOG ] >>  37 >>  successfully sent command to node : [h3 : ping to h2]-8-100
-[ LOG ] >>  38 >>  successfully logged command [h3 : ping to h2] in run_topology_tests...-8-100
-[ LOG ] >>  39 >>  successfully sent command to node : [h3 : ping to h4]-8-100
-[ LOG ] >>  40 >>  successfully logged command [h3 : ping to h4] in run_topology_tests...-8-100
-[ LOG ] >>  41 >>  successfully sent command to node : [h4 : ifconfig]-8-100
-[ LOG ] >>  42 >>  successfully logged command [h4 : ifconfig] in run_topology_tests...-8-100
-[ LOG ] >>  43 >>  successfully sent command to node : [h4 : ping to h1]-8-100
-[ LOG ] >>  44 >>  successfully logged command [h4 : ping to h1] in run_topology_tests...-8-100
-[ LOG ] >>  45 >>  successfully sent command to node : [h4 : ping to h2]-8-100
-[ LOG ] >>  46 >>  successfully logged command [h4 : ping to h2] in run_topology_tests...-8-100
-[ LOG ] >>  47 >>  successfully sent command to node : [h4 : ping to h3]-8-100
-[ LOG ] >>  48 >>  successfully logged command [h4 : ping to h3] in run_topology_tests...-8-100
-[ LOG ] >>  49 >>  successfully stopped mininet network in run_topology_tests...-8-100
-[ LOG ] >>  0 >>  successfully initiated server [@h3] in run_iperf_client_server_test...-32-100
-[ LOG ] >>  1 >>  successfully initiated client in iperf test [@server h3 : @client h1] in run_iperf_client_server_test...-32-100
-[ LOG ] >>  2 >>  successfully performed server client test & exited iperf test [@server h3 : @client h1] in run_iperf_client_server_test...-32-100
-[ LOG ] >>  3 >>  successfully initiated server [@h1] in run_iperf_client_server_test...-32-100
-[ LOG ] >>  4 >>  successfully initiated client in iperf test [@server h1 : @client h3] in run_iperf_client_server_test...-32-100
-[ LOG ] >>  5 >>  successfully performed server client test & exited iperf test [@server h1 : @client h3] in run_iperf_client_server_test...-32-100
-[ LOG ] >>  6 >>  successfully initiated server [@h4] in run_iperf_client_server_test...-32-100
-[ LOG ] >>  7 >>  successfully initiated client in iperf test [@server h4 : @client h2] in run_iperf_client_server_test...-32-100
-[ LOG ] >>  8 >>  successfully performed server client test & exited iperf test [@server h4 : @client h2] in run_iperf_client_server_test...-32-100
-[ LOG ] >>  9 >>  successfully initiated server [@h2] in run_iperf_client_server_test...-32-100
-[ LOG ] >>  10 >>  successfully initiated client in iperf test [@server h2 : @client h4] in run_iperf_client_server_test...-32-100
-[ LOG ] >>  11 >>  successfully performed server client test & exited iperf test [@server h2 : @client h4] in run_iperf_client_server_test...-32-100
-[ LOG ] >>  12 >>  successfully instantiated BottleneckTopo object in run_topology_tests...
-[ LOG ] >>  13 >>  successfully instantiated Mininet() object in run_topology_tests...
-[ LOG ] >>  14 >>  successfully started a mininet network in run_topology_tests...
-[ LOG ] >>  15 >>  successfully sent command to node : [h1 : ifconfig]-32-100
-[ LOG ] >>  16 >>  successfully logged command [h1 : ifconfig] in run_topology_tests...-32-100
-[ LOG ] >>  17 >>  successfully sent command to node : [h1 : ping to h2]-32-100
-[ LOG ] >>  18 >>  successfully logged command [h1 : ping to h2] in run_topology_tests...-32-100
-[ LOG ] >>  19 >>  successfully sent command to node : [h1 : ping to h3]-32-100
-[ LOG ] >>  20 >>  successfully logged command [h1 : ping to h3] in run_topology_tests...-32-100
-[ LOG ] >>  21 >>  successfully sent command to node : [h1 : ping to h4]-32-100
-[ LOG ] >>  22 >>  successfully logged command [h1 : ping to h4] in run_topology_tests...-32-100
-[ LOG ] >>  23 >>  successfully sent command to node : [h2 : ifconfig]-32-100
-[ LOG ] >>  24 >>  successfully logged command [h2 : ifconfig] in run_topology_tests...-32-100
-[ LOG ] >>  25 >>  successfully sent command to node : [h2 : ping to h1]-32-100
-[ LOG ] >>  26 >>  successfully logged command [h2 : ping to h1] in run_topology_tests...-32-100
-[ LOG ] >>  27 >>  successfully sent command to node : [h2 : ping to h3]-32-100
-[ LOG ] >>  28 >>  successfully logged command [h2 : ping to h3] in run_topology_tests...-32-100
-[ LOG ] >>  29 >>  successfully sent command to node : [h2 : ping to h4]-32-100
-[ LOG ] >>  30 >>  successfully logged command [h2 : ping to h4] in run_topology_tests...-32-100
-[ LOG ] >>  31 >>  successfully sent command to node : [h3 : ifconfig]-32-100
-[ LOG ] >>  32 >>  successfully logged command [h3 : ifconfig] in run_topology_tests...-32-100
-[ LOG ] >>  33 >>  successfully sent command to node : [h3 : ping to h1]-32-100
-[ LOG ] >>  34 >>  successfully logged command [h3 : ping to h1] in run_topology_tests...-32-100
-[ LOG ] >>  35 >>  successfully sent command to node : [h3 : ping to h2]-32-100
-[ LOG ] >>  36 >>  successfully logged command [h3 : ping to h2] in run_topology_tests...-32-100
-[ LOG ] >>  37 >>  successfully sent command to node : [h3 : ping to h4]-32-100
-[ LOG ] >>  38 >>  successfully logged command [h3 : ping to h4] in run_topology_tests...-32-100
-[ LOG ] >>  39 >>  successfully sent command to node : [h4 : ifconfig]-32-100
-[ LOG ] >>  40 >>  successfully logged command [h4 : ifconfig] in run_topology_tests...-32-100
-[ LOG ] >>  41 >>  successfully sent command to node : [h4 : ping to h1]-32-100
-[ LOG ] >>  42 >>  successfully logged command [h4 : ping to h1] in run_topology_tests...-32-100
-[ LOG ] >>  43 >>  successfully sent command to node : [h4 : ping to h2]-32-100
-[ LOG ] >>  44 >>  successfully logged command [h4 : ping to h2] in run_topology_tests...-32-100
-[ LOG ] >>  45 >>  successfully sent command to node : [h4 : ping to h3]-32-100
-[ LOG ] >>  46 >>  successfully logged command [h4 : ping to h3] in run_topology_tests...-32-100
-[ LOG ] >>  47 >>  successfully stopped mininet network in run_topology_tests...-32-100
-[ LOG ] >>  0 >>  successfully initiated server [@h3] in run_iperf_client_server_test...-64-100
-[ LOG ] >>  1 >>  successfully initiated client in iperf test [@server h3 : @client h1] in run_iperf_client_server_test...-64-100
-[ LOG ] >>  2 >>  successfully performed server client test & exited iperf test [@server h3 : @client h1] in run_iperf_client_server_test...-64-100
-[ LOG ] >>  3 >>  successfully initiated server [@h1] in run_iperf_client_server_test...-64-100
-[ LOG ] >>  4 >>  successfully initiated client in iperf test [@server h1 : @client h3] in run_iperf_client_server_test...-64-100
-[ LOG ] >>  5 >>  successfully performed server client test & exited iperf test [@server h1 : @client h3] in run_iperf_client_server_test...-64-100
-[ LOG ] >>  6 >>  successfully initiated server [@h4] in run_iperf_client_server_test...-64-100
-[ LOG ] >>  7 >>  successfully initiated client in iperf test [@server h4 : @client h2] in run_iperf_client_server_test...-64-100
-[ LOG ] >>  8 >>  successfully performed server client test & exited iperf test [@server h4 : @client h2] in run_iperf_client_server_test...-64-100
-[ LOG ] >>  9 >>  successfully initiated server [@h2] in run_iperf_client_server_test...-64-100
-[ LOG ] >>  10 >>  successfully initiated client in iperf test [@server h2 : @client h4] in run_iperf_client_server_test...-64-100
-[ LOG ] >>  11 >>  successfully performed server client test & exited iperf test [@server h2 : @client h4] in run_iperf_client_server_test...-64-100
-[ LOG ] >>  12 >>  successfully instantiated BottleneckTopo object in run_topology_tests...
-[ LOG ] >>  13 >>  successfully instantiated Mininet() object in run_topology_tests...
-[ LOG ] >>  14 >>  successfully started a mininet network in run_topology_tests...
-[ LOG ] >>  15 >>  successfully sent command to node : [h1 : ifconfig]-64-100
-[ LOG ] >>  16 >>  successfully logged command [h1 : ifconfig] in run_topology_tests...-64-100
-[ LOG ] >>  17 >>  successfully sent command to node : [h1 : ping to h2]-64-100
-[ LOG ] >>  18 >>  successfully logged command [h1 : ping to h2] in run_topology_tests...-64-100
-[ LOG ] >>  19 >>  successfully sent command to node : [h1 : ping to h3]-64-100
-[ LOG ] >>  20 >>  successfully logged command [h1 : ping to h3] in run_topology_tests...-64-100
-[ LOG ] >>  21 >>  successfully sent command to node : [h1 : ping to h4]-64-100
-[ LOG ] >>  22 >>  successfully logged command [h1 : ping to h4] in run_topology_tests...-64-100
-[ LOG ] >>  23 >>  successfully sent command to node : [h2 : ifconfig]-64-100
-[ LOG ] >>  24 >>  successfully logged command [h2 : ifconfig] in run_topology_tests...-64-100
-[ LOG ] >>  25 >>  successfully sent command to node : [h2 : ping to h1]-64-100
-[ LOG ] >>  26 >>  successfully logged command [h2 : ping to h1] in run_topology_tests...-64-100
-[ LOG ] >>  27 >>  successfully sent command to node : [h2 : ping to h3]-64-100
-[ LOG ] >>  28 >>  successfully logged command [h2 : ping to h3] in run_topology_tests...-64-100
-[ LOG ] >>  29 >>  successfully sent command to node : [h2 : ping to h4]-64-100
-[ LOG ] >>  30 >>  successfully logged command [h2 : ping to h4] in run_topology_tests...-64-100
-[ LOG ] >>  31 >>  successfully sent command to node : [h3 : ifconfig]-64-100
-[ LOG ] >>  32 >>  successfully logged command [h3 : ifconfig] in run_topology_tests...-64-100
-[ LOG ] >>  33 >>  successfully sent command to node : [h3 : ping to h1]-64-100
-[ LOG ] >>  34 >>  successfully logged command [h3 : ping to h1] in run_topology_tests...-64-100
-[ LOG ] >>  35 >>  successfully sent command to node : [h3 : ping to h2]-64-100
-[ LOG ] >>  36 >>  successfully logged command [h3 : ping to h2] in run_topology_tests...-64-100
-[ LOG ] >>  37 >>  successfully sent command to node : [h3 : ping to h4]-64-100
-[ LOG ] >>  38 >>  successfully logged command [h3 : ping to h4] in run_topology_tests...-64-100
-[ LOG ] >>  39 >>  successfully sent command to node : [h4 : ifconfig]-64-100
-[ LOG ] >>  40 >>  successfully logged command [h4 : ifconfig] in run_topology_tests...-64-100
-[ LOG ] >>  41 >>  successfully sent command to node : [h4 : ping to h1]-64-100
-[ LOG ] >>  42 >>  successfully logged command [h4 : ping to h1] in run_topology_tests...-64-100
-[ LOG ] >>  43 >>  successfully sent command to node : [h4 : ping to h2]-64-100
-[ LOG ] >>  44 >>  successfully logged command [h4 : ping to h2] in run_topology_tests...-64-100
-[ LOG ] >>  45 >>  successfully sent command to node : [h4 : ping to h3]-64-100
-[ LOG ] >>  46 >>  successfully logged command [h4 : ping to h3] in run_topology_tests...-64-100
-[ LOG ] >>  47 >>  successfully stopped mininet network in run_topology_tests...-64-100
+[ LOG ] >>  0 >>  successfully instantiated BottleneckTopo object in run_topology_tests...
+[ LOG ] >>  1 >>  successfully instantiated Mininet() object in run_topology_tests...
+[ LOG ] >>  2 >>  successfully started a mininet network in run_topology_tests...
+[ LOG ] >>  3 >>  successfully sent command to node : [h1 : ifconfig]-8-100
+[ LOG ] >>  4 >>  successfully logged command [h1 : ifconfig] in run_topology_tests...-8-100
+[ LOG ] >>  5 >>  successfully sent command to node : [h1 : ping to h2]-8-100
+[ LOG ] >>  6 >>  successfully logged command [h1 : ping to h2] in run_topology_tests...-8-100
+[ LOG ] >>  7 >>  successfully sent command to node : [h1 : ping to h3]-8-100
+[ LOG ] >>  8 >>  successfully logged command [h1 : ping to h3] in run_topology_tests...-8-100
+[ LOG ] >>  9 >>  successfully sent command to node : [h1 : ping to h4]-8-100
+[ LOG ] >>  10 >>  successfully logged command [h1 : ping to h4] in run_topology_tests...-8-100
+[ LOG ] >>  11 >>  successfully sent command to node : [h2 : ifconfig]-8-100
+[ LOG ] >>  12 >>  successfully logged command [h2 : ifconfig] in run_topology_tests...-8-100
+[ LOG ] >>  13 >>  successfully sent command to node : [h2 : ping to h1]-8-100
+[ LOG ] >>  14 >>  successfully logged command [h2 : ping to h1] in run_topology_tests...-8-100
+[ LOG ] >>  15 >>  successfully sent command to node : [h2 : ping to h3]-8-100
+[ LOG ] >>  16 >>  successfully logged command [h2 : ping to h3] in run_topology_tests...-8-100
+[ LOG ] >>  17 >>  successfully sent command to node : [h2 : ping to h4]-8-100
+[ LOG ] >>  18 >>  successfully logged command [h2 : ping to h4] in run_topology_tests...-8-100
+[ LOG ] >>  19 >>  successfully sent command to node : [h3 : ifconfig]-8-100
+[ LOG ] >>  20 >>  successfully logged command [h3 : ifconfig] in run_topology_tests...-8-100
+[ LOG ] >>  21 >>  successfully sent command to node : [h3 : ping to h1]-8-100
+[ LOG ] >>  22 >>  successfully logged command [h3 : ping to h1] in run_topology_tests...-8-100
+[ LOG ] >>  23 >>  successfully sent command to node : [h3 : ping to h2]-8-100
+[ LOG ] >>  24 >>  successfully logged command [h3 : ping to h2] in run_topology_tests...-8-100
+[ LOG ] >>  25 >>  successfully sent command to node : [h3 : ping to h4]-8-100
+[ LOG ] >>  26 >>  successfully logged command [h3 : ping to h4] in run_topology_tests...-8-100
+[ LOG ] >>  27 >>  successfully sent command to node : [h4 : ifconfig]-8-100
+[ LOG ] >>  28 >>  successfully logged command [h4 : ifconfig] in run_topology_tests...-8-100
+[ LOG ] >>  29 >>  successfully sent command to node : [h4 : ping to h1]-8-100
+[ LOG ] >>  30 >>  successfully logged command [h4 : ping to h1] in run_topology_tests...-8-100
+[ LOG ] >>  31 >>  successfully sent command to node : [h4 : ping to h2]-8-100
+[ LOG ] >>  32 >>  successfully logged command [h4 : ping to h2] in run_topology_tests...-8-100
+[ LOG ] >>  33 >>  successfully sent command to node : [h4 : ping to h3]-8-100
+[ LOG ] >>  34 >>  successfully logged command [h4 : ping to h3] in run_topology_tests...-8-100
+[ LOG ] >>  35 >>  successfully stopped mininet network in run_topology_tests...-8-100
+[ LOG ] >>  36 >>  successfully initiated server [@h3] in run_iperf_client_server_test...-8-100
+[ LOG ] >>  37 >>  successfully initiated client in iperf test [@server h3 : @client h1] in run_iperf_client_server_test...-8-100
+[ LOG ] >>  38 >>  successfully performed server client test & exited iperf test [@server h3 : @client h1] in run_iperf_client_server_test...-8-100
+[ LOG ] >>  39 >>  successfully initiated server [@h1] in run_iperf_client_server_test...-8-100
+[ LOG ] >>  40 >>  successfully initiated client in iperf test [@server h1 : @client h3] in run_iperf_client_server_test...-8-100
+[ LOG ] >>  41 >>  successfully performed server client test & exited iperf test [@server h1 : @client h3] in run_iperf_client_server_test...-8-100
+[ LOG ] >>  42 >>  successfully initiated server [@h4] in run_iperf_client_server_test...-8-100
+[ LOG ] >>  43 >>  successfully initiated client in iperf test [@server h4 : @client h2] in run_iperf_client_server_test...-8-100
+[ LOG ] >>  44 >>  successfully performed server client test & exited iperf test [@server h4 : @client h2] in run_iperf_client_server_test...-8-100
+[ LOG ] >>  45 >>  successfully initiated server [@h2] in run_iperf_client_server_test...-8-100
+[ LOG ] >>  46 >>  successfully initiated client in iperf test [@server h2 : @client h4] in run_iperf_client_server_test...-8-100
+[ LOG ] >>  47 >>  successfully performed server client test & exited iperf test [@server h2 : @client h4] in run_iperf_client_server_test...-8-100
+[ LOG ] >>  0 >>  successfully instantiated BottleneckTopo object in run_topology_tests...
+[ LOG ] >>  1 >>  successfully instantiated Mininet() object in run_topology_tests...
+[ LOG ] >>  2 >>  successfully started a mininet network in run_topology_tests...
+[ LOG ] >>  3 >>  successfully sent command to node : [h1 : ifconfig]-32-100
+[ LOG ] >>  4 >>  successfully logged command [h1 : ifconfig] in run_topology_tests...-32-100
+[ LOG ] >>  5 >>  successfully sent command to node : [h1 : ping to h2]-32-100
+[ LOG ] >>  6 >>  successfully logged command [h1 : ping to h2] in run_topology_tests...-32-100
+[ LOG ] >>  7 >>  successfully sent command to node : [h1 : ping to h3]-32-100
+[ LOG ] >>  8 >>  successfully logged command [h1 : ping to h3] in run_topology_tests...-32-100
+[ LOG ] >>  9 >>  successfully sent command to node : [h1 : ping to h4]-32-100
+[ LOG ] >>  10 >>  successfully logged command [h1 : ping to h4] in run_topology_tests...-32-100
+[ LOG ] >>  11 >>  successfully sent command to node : [h2 : ifconfig]-32-100
+[ LOG ] >>  12 >>  successfully logged command [h2 : ifconfig] in run_topology_tests...-32-100
+[ LOG ] >>  13 >>  successfully sent command to node : [h2 : ping to h1]-32-100
+[ LOG ] >>  14 >>  successfully logged command [h2 : ping to h1] in run_topology_tests...-32-100
+[ LOG ] >>  15 >>  successfully sent command to node : [h2 : ping to h3]-32-100
+[ LOG ] >>  16 >>  successfully logged command [h2 : ping to h3] in run_topology_tests...-32-100
+[ LOG ] >>  17 >>  successfully sent command to node : [h2 : ping to h4]-32-100
+[ LOG ] >>  18 >>  successfully logged command [h2 : ping to h4] in run_topology_tests...-32-100
+[ LOG ] >>  19 >>  successfully sent command to node : [h3 : ifconfig]-32-100
+[ LOG ] >>  20 >>  successfully logged command [h3 : ifconfig] in run_topology_tests...-32-100
+[ LOG ] >>  21 >>  successfully sent command to node : [h3 : ping to h1]-32-100
+[ LOG ] >>  22 >>  successfully logged command [h3 : ping to h1] in run_topology_tests...-32-100
+[ LOG ] >>  23 >>  successfully sent command to node : [h3 : ping to h2]-32-100
+[ LOG ] >>  24 >>  successfully logged command [h3 : ping to h2] in run_topology_tests...-32-100
+[ LOG ] >>  25 >>  successfully sent command to node : [h3 : ping to h4]-32-100
+[ LOG ] >>  26 >>  successfully logged command [h3 : ping to h4] in run_topology_tests...-32-100
+[ LOG ] >>  27 >>  successfully sent command to node : [h4 : ifconfig]-32-100
+[ LOG ] >>  28 >>  successfully logged command [h4 : ifconfig] in run_topology_tests...-32-100
+[ LOG ] >>  29 >>  successfully sent command to node : [h4 : ping to h1]-32-100
+[ LOG ] >>  30 >>  successfully logged command [h4 : ping to h1] in run_topology_tests...-32-100
+[ LOG ] >>  31 >>  successfully sent command to node : [h4 : ping to h2]-32-100
+[ LOG ] >>  32 >>  successfully logged command [h4 : ping to h2] in run_topology_tests...-32-100
+[ LOG ] >>  33 >>  successfully sent command to node : [h4 : ping to h3]-32-100
+[ LOG ] >>  34 >>  successfully logged command [h4 : ping to h3] in run_topology_tests...-32-100
+[ LOG ] >>  35 >>  successfully stopped mininet network in run_topology_tests...-32-100
+[ LOG ] >>  36 >>  successfully initiated server [@h3] in run_iperf_client_server_test...-32-100
+[ LOG ] >>  37 >>  successfully initiated client in iperf test [@server h3 : @client h1] in run_iperf_client_server_test...-32-100
+[ LOG ] >>  38 >>  successfully performed server client test & exited iperf test [@server h3 : @client h1] in run_iperf_client_server_test...-32-100
+[ LOG ] >>  39 >>  successfully initiated server [@h1] in run_iperf_client_server_test...-32-100
+[ LOG ] >>  40 >>  successfully initiated client in iperf test [@server h1 : @client h3] in run_iperf_client_server_test...-32-100
+[ LOG ] >>  41 >>  successfully performed server client test & exited iperf test [@server h1 : @client h3] in run_iperf_client_server_test...-32-100
+[ LOG ] >>  42 >>  successfully initiated server [@h4] in run_iperf_client_server_test...-32-100
+[ LOG ] >>  43 >>  successfully initiated client in iperf test [@server h4 : @client h2] in run_iperf_client_server_test...-32-100
+[ LOG ] >>  44 >>  successfully performed server client test & exited iperf test [@server h4 : @client h2] in run_iperf_client_server_test...-32-100
+[ LOG ] >>  45 >>  successfully initiated server [@h2] in run_iperf_client_server_test...-32-100
+[ LOG ] >>  46 >>  successfully initiated client in iperf test [@server h2 : @client h4] in run_iperf_client_server_test...-32-100
+[ LOG ] >>  47 >>  successfully performed server client test & exited iperf test [@server h2 : @client h4] in run_iperf_client_server_test...-32-100
+[ LOG ] >>  0 >>  successfully instantiated BottleneckTopo object in run_topology_tests...
+[ LOG ] >>  1 >>  successfully instantiated Mininet() object in run_topology_tests...
+[ LOG ] >>  2 >>  successfully started a mininet network in run_topology_tests...
+[ LOG ] >>  3 >>  successfully sent command to node : [h1 : ifconfig]-64-100
+[ LOG ] >>  4 >>  successfully logged command [h1 : ifconfig] in run_topology_tests...-64-100
+[ LOG ] >>  5 >>  successfully sent command to node : [h1 : ping to h2]-64-100
+[ LOG ] >>  6 >>  successfully logged command [h1 : ping to h2] in run_topology_tests...-64-100
+[ LOG ] >>  7 >>  successfully sent command to node : [h1 : ping to h3]-64-100
+[ LOG ] >>  8 >>  successfully logged command [h1 : ping to h3] in run_topology_tests...-64-100
+[ LOG ] >>  9 >>  successfully sent command to node : [h1 : ping to h4]-64-100
+[ LOG ] >>  10 >>  successfully logged command [h1 : ping to h4] in run_topology_tests...-64-100
+[ LOG ] >>  11 >>  successfully sent command to node : [h2 : ifconfig]-64-100
+[ LOG ] >>  12 >>  successfully logged command [h2 : ifconfig] in run_topology_tests...-64-100
+[ LOG ] >>  13 >>  successfully sent command to node : [h2 : ping to h1]-64-100
+[ LOG ] >>  14 >>  successfully logged command [h2 : ping to h1] in run_topology_tests...-64-100
+[ LOG ] >>  15 >>  successfully sent command to node : [h2 : ping to h3]-64-100
+[ LOG ] >>  16 >>  successfully logged command [h2 : ping to h3] in run_topology_tests...-64-100
+[ LOG ] >>  17 >>  successfully sent command to node : [h2 : ping to h4]-64-100
+[ LOG ] >>  18 >>  successfully logged command [h2 : ping to h4] in run_topology_tests...-64-100
+[ LOG ] >>  19 >>  successfully sent command to node : [h3 : ifconfig]-64-100
+[ LOG ] >>  20 >>  successfully logged command [h3 : ifconfig] in run_topology_tests...-64-100
+[ LOG ] >>  21 >>  successfully sent command to node : [h3 : ping to h1]-64-100
+[ LOG ] >>  22 >>  successfully logged command [h3 : ping to h1] in run_topology_tests...-64-100
+[ LOG ] >>  23 >>  successfully sent command to node : [h3 : ping to h2]-64-100
+[ LOG ] >>  24 >>  successfully logged command [h3 : ping to h2] in run_topology_tests...-64-100
+[ LOG ] >>  25 >>  successfully sent command to node : [h3 : ping to h4]-64-100
+[ LOG ] >>  26 >>  successfully logged command [h3 : ping to h4] in run_topology_tests...-64-100
+[ LOG ] >>  27 >>  successfully sent command to node : [h4 : ifconfig]-64-100
+[ LOG ] >>  28 >>  successfully logged command [h4 : ifconfig] in run_topology_tests...-64-100
+[ LOG ] >>  29 >>  successfully sent command to node : [h4 : ping to h1]-64-100
+[ LOG ] >>  30 >>  successfully logged command [h4 : ping to h1] in run_topology_tests...-64-100
+[ LOG ] >>  31 >>  successfully sent command to node : [h4 : ping to h2]-64-100
+[ LOG ] >>  32 >>  successfully logged command [h4 : ping to h2] in run_topology_tests...-64-100
+[ LOG ] >>  33 >>  successfully sent command to node : [h4 : ping to h3]-64-100
+[ LOG ] >>  34 >>  successfully logged command [h4 : ping to h3] in run_topology_tests...-64-100
+[ LOG ] >>  35 >>  successfully stopped mininet network in run_topology_tests...-64-100
+[ LOG ] >>  36 >>  successfully initiated server [@h3] in run_iperf_client_server_test...-64-100
+[ LOG ] >>  37 >>  successfully initiated client in iperf test [@server h3 : @client h1] in run_iperf_client_server_test...-64-100
+[ LOG ] >>  38 >>  successfully performed server client test & exited iperf test [@server h3 : @client h1] in run_iperf_client_server_test...-64-100
+[ LOG ] >>  39 >>  successfully initiated server [@h1] in run_iperf_client_server_test...-64-100
+[ LOG ] >>  40 >>  successfully initiated client in iperf test [@server h1 : @client h3] in run_iperf_client_server_test...-64-100
+[ LOG ] >>  41 >>  successfully performed server client test & exited iperf test [@server h1 : @client h3] in run_iperf_client_server_test...-64-100
+[ LOG ] >>  42 >>  successfully initiated server [@h4] in run_iperf_client_server_test...-64-100
+[ LOG ] >>  43 >>  successfully initiated client in iperf test [@server h4 : @client h2] in run_iperf_client_server_test...-64-100
+[ LOG ] >>  44 >>  successfully performed server client test & exited iperf test [@server h4 : @client h2] in run_iperf_client_server_test...-64-100
+[ LOG ] >>  45 >>  successfully initiated server [@h2] in run_iperf_client_server_test...-64-100
+[ LOG ] >>  46 >>  successfully initiated client in iperf test [@server h2 : @client h4] in run_iperf_client_server_test...-64-100
+[ LOG ] >>  47 >>  successfully initiated server [@h2] in run_iperf_client_server_test...-64-100
+[ LOG ] >>  48 >>  successfully initiated client in iperf test [@server h2 : @client h4] in run_iperf_client_server_test...-64-100
+[ LOG ] >>  49 >>  successfully performed server client test & exited iperf test [@server h2 : @client h4] in run_iperf_client_server_test...-64-100

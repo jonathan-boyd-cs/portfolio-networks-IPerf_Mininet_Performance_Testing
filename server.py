@@ -4,9 +4,10 @@ import iperf3
 import json
 import os
 import subprocess
+from configure import RESULTS_DIRECTORY , IPERF_DIRECTORY
 #Handles the server code for the Networking Assignment 3
 if __name__ == "__main__" :
-    
+   
     #Define the parser
     parser = argparse.ArgumentParser()
     #Set the IP and Port values
@@ -25,13 +26,15 @@ if __name__ == "__main__" :
     
     data = result.json
 
-    if not os.path.exists("./test-results"):
-        subprocess.Popen(["mkdir", "test-results"])
-    if not os.path.exists("./test-results/iperf/"):
-        subprocess.Popen([ "mkdir", "./test-results/iperf" ] )
+    if not os.path.exists(RESULTS_DIRECTORY):
+        p1 = subprocess.Popen(["mkdir", RESULTS_DIRECTORY])
+        p1.wait()
+    if not os.path.exists(IPERF_DIRECTORY):
+        subprocess.Popen([ "mkdir", IPERF_DIRECTORY ] )
     
          
-    file_name = "./test-results/iperf/s-iperf-client-{}-to-server-{}-test-{}.json".format(
+    file_name = "{}s-iperf-client-{}-to-server-{}-test-{}.json".format(
+        IPERF_DIRECTORY,
         result.remote_host,
         result.local_host,
         result.protocol

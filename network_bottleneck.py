@@ -8,11 +8,14 @@ import subprocess
 from time import sleep
 import json
 import os
+from configure import SERVICE_DIRECTORY, FINAL_RESULT_DIRECTORY, IPERF_DIRECTORY
+from configure import LOG_DIRECTORY, IFCONFIG_DIRECTORY, PING_DIRECTORY
+from configure import init_file_system
 # GLOBAL CONSTANTS 
 # specify the number of times failed tests will repeat
 MAX_ATTEMPTS = 5
-# specify the duration of ping tests
-TIME = 10
+# specify the duration of iperf tests
+TIME = 10 # redefined in main
 # specify network bandwidth restrictions
 BW_BOTTLENECK = 10 # redefined in main
 BW_OTHER      = 100
@@ -41,37 +44,12 @@ def generate_instance_message( message : str ) -> str :
             BW_OTHER
         )
             
-# CREATE OUTPUT FOLDERS
-SERVICE_DIRECTORY = "./service/"
-LOG_DIRECTORY = "./service/logs/"
-RESULTS_DIRECTORY = "./test-results/"
-FINAL_RESULT_DIRECTORY = "./"
-IPERF_DIRECTORY = "./test-results/iperf/"
-PING_DIRECTORY = "./"
-IFCONFIG_DIRECTORY = "./"
 
-if not os.path.exists(SERVICE_DIRECTORY):
-    subprocess.run(["mkdir", SERVICE_DIRECTORY])
-    
-if not os.path.exists(LOG_DIRECTORY):
-    subprocess.run(["mkdir", LOG_DIRECTORY])
-    
-#if not os.path.exists(RESULTS_DIRECTORY):
-#    subprocess.run(["mkdir", RESULTS_DIRECTORY])
-    
-if not os.path.exists(FINAL_RESULT_DIRECTORY):
-    subprocess.run(["mkdir", FINAL_RESULT_DIRECTORY])
-
-#if not os.path.exists(IFCONFIG_DIRECTORY):
-#    subprocess.run(["mkdir", IFCONFIG_DIRECTORY])
-
-#if not os.path.exists(PING_DIRECTORY):
-#    subprocess.run(["mkdir", PING_DIRECTORY])
-
+init_file_system()
 
 # INSTANTIATE GENERAL SESSION LOGGERS
 
-configuration_logger    = Logger(log_file="output-network-config.txt")
+configuration_logger    = Logger(log_file="{}output-network-config-{}-{}.txt".format(LOG_DIRECTORY,BW_BOTTLENECK,BW_OTHER))
 err_logger              = Logger(log_file="{}error-output.txt".format(LOG_DIRECTORY))
 success_logger          = Logger(log_file="{}success-output.txt".format(LOG_DIRECTORY))
 
@@ -271,7 +249,7 @@ def generate_server_test_cmd( server_ip : str, service_port : int) -> str :
         Returns:<br>
         - <code>string<code> the formatted command
     """
-    test_cmd_Server = "python server.py -ip {} -port {}".format(server_ip,service_port)
+    test_cmd_Server = "python3 server.py -ip {} -port {}".format(server_ip,service_port)
     return test_cmd_Server
 
 
@@ -288,7 +266,7 @@ def generate_client_test_cmd( client_ip : str , service_port : int , server_ip :
         Returns:<br>
         - <code>string</code> the formatted command
     """
-    test_cmd_Client = "python client.py -ip {} -port {} -server_ip {} -test {} -time {}".format(
+    test_cmd_Client = "python3 client.py -ip {} -port {} -server_ip {} -test {} -time {}".format(
                     client_ip,
                     service_port,
                     server_ip,
