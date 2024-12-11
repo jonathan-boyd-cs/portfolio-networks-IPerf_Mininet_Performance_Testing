@@ -211,7 +211,7 @@ def run_topology_tests() -> None:
                     ping_cmd = 'ping -c3 {}'.format( parse_NodeIP(network.get(alt_host).IP))
                     ping_cmd_result = do_node_cmd(
                                             network         =   network,
-                                            target_node_name=   alt_host, 
+                                            target_node_name=   host, 
                                             node_cmd        =   ping_cmd
                                     ) 
                     success_logger.log(generate_instance_message("successfully sent command to node : [{} : ping to {}]".format(host,alt_host)))
